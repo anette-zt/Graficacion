@@ -1,2 +1,0 @@
-# Graficacion
-Practicas y tareas 
