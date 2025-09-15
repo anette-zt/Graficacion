@@ -2,55 +2,55 @@
 
 import turtle 
 
-"""Titulo y color de la ventana """
+"""Lienzos donde el Maestro Oogway 🐢 dibuja sus figuras"""
 ventana = turtle.Screen()
-ventana.title("Practica 1")
+ventana.title("Dibujo de Oogway")
 ventana.bgcolor("black")
 
-""""Creacion de Maestro Oogway 🐢 """
-Z = turtle.Turtle()
-Z.speed(3)  
+""""El Maestro Oogway 🐢 queriendo dibujar"""
+Oogway = turtle.Turtle()
+Oogway.speed(2)  
 
-"""Codigo de yn cuadrado"""
+"""Dibujo de un cuadrado, como el patio de entrenamiento"""
 def dibujar_cuadro(x, y, lado, color):
-    Z.penup()
-    Z.goto(x, y)
-    Z.pendown()
-    Z.color(color)
+    Oogway.penup()
+    Oogway.goto(x, y)
+    Oogway.pendown()
+    Oogway.color(color)
     for _ in range(4):
-        Z.forward(lado)
-        Z.right(90)
+        Oogway.forward(lado)
+        Oogway.right(90)
 
-"""Codigo de una piramide """
+"""Dinujo de una piramide"""
 def dibujar_triangulo(x, y, lado, color):
-    Z.penup()
-    Z.goto(x, y)
-    Z.pendown()
-    Z.color(color)
+    Oogway.penup()
+    Oogway.goto(x, y)
+    Oogway.pendown()
+    Oogway.color(color)
     for _ in range(3):
-        Z.forward(lado)
-        Z.right(120)
+        Oogway.forward(lado)
+        Oogway.right(120)
 
-"""Codigo del dibujo de un circulo y su radio"""
+"""Dibujo de la panza de Po 🐼"""
 def dibujar_circulo(x, y, radio, color):
-    Z.penup()
-    Z.goto(x, y - radio)
-    Z.pendown()
-    Z.color(color)
-    Z.circle(radio)
+    Oogway.penup()
+    Oogway.goto(x, y - radio)
+    Oogway.pendown()
+    Oogway.color(color)
+    Oogway.circle(radio)
 
-"""Codigo para dibujar una linea recta de punto (a) a punto (b)"""
+"""Dibujo de una linea, como la espada del maestro Shifu 🦊"""
 def dibujar_linea(x1, y1, x2, y2, color):
-    Z.penup()
-    Z.goto(x1, y1)
-    Z.pendown()
-    Z.color(color)
-    Z.goto(x2, y2)
+    Oogway.penup()
+    Oogway.goto(x1, y1)
+    Oogway.pendown()
+    Oogway.color(color)
+    Oogway.goto(x2, y2)
 
-"""Coordenadas iniciales y finales de las figuras. Tambien tamaño y sus colores"""
+"""Ya se canso de dibujar"""
 dibujar_cuadro(-150, 180, 80, "blue")
-dibujar_triangulo(150, 300, 160, "red")
-dibujar_circulo(80, -60, 100, "green")
-dibujar_linea(-330, -250, 320, 100, "purple")
+dibujar_triangulo(150, 300, 160, "orange")
+dibujar_circulo(80, -60, 100, "white")
+dibujar_linea(-330, -250, 320, 100, "crimson")
 
 turtle.done()
