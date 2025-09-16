@@ -1,4 +1,4 @@
-# Práctica 1 - Figuras Geométricas con Python
+# Practica 1 - Figuras Geometricas con Python
 
 # Descripcion
 En esta practica use el modulo "turtle" para que el maestro hacer diferentes figuras que son: Cuadro, triangulo, circulo y linea recta.
