@@ -9,33 +9,28 @@ ventana.bgcolor("lightblue")
 
 """Creacion de figura"""
 figura = turtle.Turtle()
-figura.shape("turtle")
+figura.shape("circle")
 figura.color("Green")
-figura.shapesize(2, 2, 2)  
 figura.penup()
 figura.speed(0)
 
-"""Distancia de que recorre la tortuga"""
+"""Distancia de que recorre el circulo"""
 distancia = 22
 
 """Funciones de movimiento"""
 def mover_derecha():
-    figura.setheading(0)
     x, y = figura.position()
     figura.goto(x + distancia, y)
 
 def mover_izquierda():
-    figura.setheading(180)
     x, y = figura.position()
     figura.goto(x - distancia, y)
 
 def mover_abajo():
-    figura.setheading(270)
     x, y = figura.position()
     figura.goto(x, y - distancia)
 
 def mover_arriba():
-    figura.setheading(90)
     x, y = figura.position()
     figura.goto(x, y + distancia)
 
