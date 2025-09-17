@@ -9,12 +9,12 @@ ventana.bgcolor("lightblue")
 
 """Creacion de figura"""
 figura = turtle.Turtle()
-figura.shape("circle")
-figura.color("Green")
+figura.shape("square")
+figura.color("red")
 figura.penup()
 figura.speed(0)
 
-"""Distancia de que recorre el circulo"""
+"""Distancia de que recorre el cubito"""
 distancia = 22
 
 """Funciones de movimiento"""
