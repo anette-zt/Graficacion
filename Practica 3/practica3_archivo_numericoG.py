@@ -7,9 +7,7 @@ print("Carpeta actual:", os.getcwd())
 
  # Dibujo de la tortuga 
 
-figura = turtle.Turtle()
-figura.shape("turtle")
-turtle.speed(0)
+turtle.speed(20)
 turtle.penup()
 
 # Asignacion de numeros a colores
