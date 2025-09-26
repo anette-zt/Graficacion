@@ -1,6 +1,16 @@
 """"Practica 3: Archivos numericos"""
 
+import os
 import turtle
+
+print("Carpeta actual:", os.getcwd())
+
+ # Dibujo de la tortuga 
+
+figura = turtle.Turtle()
+figura.shape("turtle")
+turtle.speed(0)
+turtle.penup()
 
 # Asignacion de numeros a colores
 colores = {
@@ -24,9 +34,19 @@ def cargar_matriz():
         seq = line.split() 
         fila = [int(num) for num in seq] 
         matriz.append(fila)
+    return matriz
 
- # Dibujo de la tortuga 
-turtle.speed(0)
-turtle.penup()
+matriz = cargar_matriz()
+
+pixel = 6
+inicio_x = -len(matriz[0]) * pixel // 2
+inicio_y = len(matriz) * pixel // 2
+
+for i in range(len(matriz)):
+    for j in range(len(matriz[i])):
+        numero = matriz[i][j]
+        color = colores.get(numero, "gray")
+        turtle.goto(inicio_x + j * pixel, inicio_y - i * pixel)
+        turtle.dot(pixel, color)
 
 turtle.done()
