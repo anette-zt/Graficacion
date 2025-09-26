@@ -1,9 +1,6 @@
 """"Practica 3: Archivos numericos"""
 
-import os
 import turtle
-
-print("Carpeta actual:", os.getcwd())
 
  # Dibujo de la tortuga 
 
