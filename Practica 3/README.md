@@ -2,7 +2,7 @@
 
 # Descripcion
 
-En este programa, ocupamos una matriz de 100 x 100, a la que le llamamos matriz.txt
+- En este programa, ocupamos una matriz de 100 x 100, a la que le llamamos matriz.txt
 La cual fue generada por ChatGPT, ya que eran bastantes numeros.
 En este programa, la matriz es dibujada usando Turtle de Python, donde cada numero tiene su propio color. 
 El 0 igual a rojo, el 5 igual a verde, etc.
