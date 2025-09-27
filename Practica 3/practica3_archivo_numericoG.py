@@ -4,7 +4,7 @@ import turtle
 
  # Dibujo de la tortuga 
 
-turtle.speed(20)
+turtle.speed(30)
 turtle.penup()
 
 # Asignacion de numeros a colores
@@ -22,7 +22,8 @@ colores = {
 }
 
 def cargar_matriz():
-    # Funcion con la que cargamos la matriz del archivo txt
+    # Funcion con la que cargamos la matriz del archivo txt.
+    # Esto fue con ayuda de CHATGPT
     filename = 'matriz.txt'
     matriz = []
     for line in open(filename):
