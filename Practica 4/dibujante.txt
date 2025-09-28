@@ -1,0 +1,4 @@
+cuadro -150 200 80 blue
+triangulo 100 250 120 orange
+circulo 0 -50 90 lightblue
+linea -200 -200 200 100 green
