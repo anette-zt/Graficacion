@@ -29,8 +29,8 @@ plataformas = [
     pygame.Rect(200, 380, 120, 10),
     pygame.Rect(400, 300, 120, 10),
     pygame.Rect(650, 340, 150, 10),
-    pygame.Rect(-3, 10, 3, 500),#paredes laterales
-    pygame.Rect(900, 10, 3, 500),
+    pygame.Rect(-3, 10, 3, 500),#paredes laterales      "Cambios en las paredes laterales"
+    pygame.Rect(900, 10, 3, 500),#                      "Cambios en las paredes laterales"
 ]
 
 # Enemigos
