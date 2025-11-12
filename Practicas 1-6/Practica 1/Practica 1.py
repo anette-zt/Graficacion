@@ -6,7 +6,7 @@ pygame.display.set_caption("Práctica 1 - Movimiento básico")
 
 x, y = 300, 200
 vel = 5
-color = (0, 255, 0)
+color = (0, 255, 0)  # Color cambiado a verde
 
 clock = pygame.time.Clock()
 running = True
